@@ -1,0 +1,179 @@
+{
+    "skills": [
+        {
+            "id": "fireball",
+            "name": "Fireball",
+            "price": 25,
+            "active_effects": [{"name": "damage", "amount": 25}],
+            "interception_rate": 15.0
+        },
+        {
+            "id": "healing_potion",
+            "name": "Healing Potion",
+            "price": 25,
+            "active_effects": [{"name": "heal", "amount": 25}],
+            "interception_rate": 15.0
+        },
+        {
+            "id": "confusion_spell",
+            "name": "Confusion Spell",
+            "price": 50,
+            "active_effects": [{"name": "disarm", "amount": null}],
+            "interception_rate": 15.0,
+            "required_level": 3
+        },
+        {
+            "id": "mana_drain",
+            "name": "Mana Drain Spell",
+            "price": 50,
+            "active_effects": [{"name": "disable_skill", "amount": null}],
+            "interception_rate": 15.0,
+            "required_level": 3
+        }
+    ],
+    "pets": [
+        {
+            "id": "cat",
+            "name": "Cat",
+            "price": 15,
+            "active_effects": [{"name": "heal", "amount": 15}],
+            "interception_rate": 20.0,
+            "image": ""
+        },
+        {
+            "id": "wolf",
+            "name": "Wolf",
+            "price": 15,
+            "active_effects": [{"name": "damage", "amount": 15}],
+            "interception_rate": 20.0,
+            "image": ""
+        },
+        {
+            "id": "dog",
+            "name": "Dog",
+            "price": 30,
+            "active_effects": [{"name": "heal", "amount": 10}],
+            "interception_rate": 40.0,
+            "image": "",
+            "required_level": 3
+        },
+        {
+            "id": "bear",
+            "name": "Bear",
+            "price": 30,
+            "active_effects": [{"name": "damage", "amount": 10}, {"name": "disable_pet", "amount": null}],
+            "interception_rate": 20.0,
+            "image": "",
+            "required_level": 3
+        }
+    ],
+    "armors": [
+        {
+            "id": "dusty_iron_armon",
+            "name": "Dusty Iron Armor",
+            "price": 20,
+            "armor_boost": 20.0
+        },
+        {
+            "id": "dusty_iron_boots",
+            "name": "Dusty Iron Boots",
+            "price": 7,
+            "armor_boost": 7.0
+        },
+        {
+            "id": "dusty_iron_breeches",
+            "name": "Dusty Iron Breeches",
+            "price": 10,
+            "armor_boost": 10.0
+        },
+        {
+            "id": "dusty_iron_gloves",
+            "name": "Dusty Iron Gloves",
+            "price": 5,
+            "armor_boost": 5.0
+        },
+        {
+            "id": "ancient_armor",
+            "name": "Ancient Armor",
+            "price": 30,
+            "armor_boost": 30.0,
+            "required_level": 3
+        },
+        {
+            "id": "ancient_boots",
+            "name": "Ancient Boots",
+            "price": 10,
+            "armor_boost": 10.0,
+            "required_level": 3
+        },
+        {
+            "id": "ancient_breeches",
+            "name": "Ancient Breeches",
+            "price": 15,
+            "armor_boost": 15.0,
+            "required_level": 3
+        },
+        {
+            "id": "ancient_gloves",
+            "name": "Ancient Gloves",
+            "price": 8,
+            "armor_boost": 8.0,
+            "required_level": 3
+        }
+    ],
+    "weapons": [
+        {
+            "id": "old_pan",
+            "name": "Old Pan",
+            "price": 5,
+            "attack_boost": 5
+        },
+        {
+            "id": "broken_dagger",
+            "name": "Broken Dagger",
+            "price": 10,
+            "attack_boost": 10
+        },
+        {
+            "id": "common_bow",
+            "name": "Common Bow",
+            "price": 10,
+            "attack_boost": 10,
+            "required_level": 3
+        },
+        {
+            "id": "sharp_sword",
+            "name": "Sharp Sword",
+            "price": 20,
+            "attack_boost": 20
+        },
+        {
+            "id": "bloody_mace",
+            "name": "Bloody Mace",
+            "price": 20,
+            "attack_boost": 20,
+            "required_level": 3
+        },
+        {
+            "id": "mythical_trident",
+            "name": "Mythical Trident",
+            "price": 40,
+            "attack_boost": 40,
+            "required_level": 3
+        },
+        {
+            "id": "enchanted_spear",
+            "name": "Enchanted Spear",
+            "price": 50,
+            "attack_boost": 50
+        },
+        
+        {
+            "id": "legendary_fork",
+            "name": "Legendary Fork",
+            "price": 100,
+            "attack_boost": 100,
+            "required_level": 3
+        }
+    ]
+}

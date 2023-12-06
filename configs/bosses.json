@@ -1,0 +1,28 @@
+{
+    "some_random_boss": {
+        "name": "Big Boss",
+        "hp": 500,
+        "attack": 20,
+        "armor": 15.0,
+        "crit_chance": 30.0,
+        "crit_damage": 1.5,
+        "skill_id": "fireball",
+        "pet_id": null,
+        "boss_items": ["broken_dagger"],
+        "xp_reward": 30,
+        "reward_role_id": null
+    },
+    "some_another_boss": {
+        "name": "Small Boss",
+        "hp": 50,
+        "attack": 20,
+        "armor": 15.0,
+        "crit_chance": 10.0,
+        "crit_damage": 1.5,
+        "skill_id": null,
+        "pet_id": null,
+        "boss_items": ["old_pan"],
+        "xp_reward": 30,
+        "reward_role_id": null
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "COMMAND_DESCRIPTIONS": {
+        "profile": {"en-US": "Shows your profile or profile of specified user"},
+        "skill": {"en-US": "Shows your skill if you have one"},
+        "pet": {"en-US": "Shows your pet if you have one"},
+        "armor": {"en-US": "Shows your armor if you have it"},
+        "weapon": {"en-US": "Shows your weapons if you have it"},
+        "shop": {"en-US": "Shows a shop where you can buy items"},
+        "buy_skill": {"en-US": "Buy some skill"},
+        "buy_pet": {"en-US": "Buy some pet"},
+        "buy_armor": {"en-US": "Buy some armor"},
+        "buy_weapon": {"en-US": "Buy some weapon"},
+        "boss": {"en-US": "Challenge some strong boss"},
+        "pvp": {"en-US": "Fight with another player"}
+    
+    },
+    "EMBED_MESSAGES": {
+        "profile": {
+            "title": "Profle of %username%",
+            "color_rgb": [69, 206, 162],
+            "fields": ["Joined at", "Lvl", "Health", "Attack", "Armor", "Crit Chance", "Crit multiplier", "Skill", "Pet", "Armor", "Weapon", "XP"]
+        },
+        "skill": {"title": "Skill of %username%", "color_rgb": [69, 206, 162], "fields": ["Skill", "Description"]},
+        "pet": {"title": "Pet of %username%", "color_rgb": [69, 206, 162], "fields": ["Pet", "Description"]},
+        "armor": {"title": "Armor of %username%", "color_rgb": [69, 206, 162], "fields": ["Armor"]},
+        "weapon": {"title": "Weapon of %username%", "color_rgb": [69, 206, 162], "fields": ["Weapon"]},
+        "shop": {"title": "Shop", "color_rgb": [69, 206, 162], "fields": ["Skills", "Pets", "Armor", "Weapons"]},
+        "fight": {"title": "Fight between %fighter1% and %fighter2%", "color_rgb": [69, 206, 162]}
+    },
+    "ERRORS": {
+        "GENERAL_ERROR": "There was a problem with your request, please try again later.",
+        "LEVEL_TOO_LOW": "Sorry, but your level is too low to buy this item.",
+        "INSUFFICIENT_FUNDS": "Sorry, but you don't have enough money to buy this item.",
+        "ITEM_ALREADY_PURCHASED": "You already have this item!",
+        "PVP_ON_SELF": "You can't fight with yourself.",
+        "PVP_ON_BOT": "You can't fight with bots."
+    },
+    "SIMPLE_MESSAGES": {
+        "PURCHASED": "Purchased successfully, now you have **%itemname%**."
+    }
+}

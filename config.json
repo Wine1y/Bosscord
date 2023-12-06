@@ -1,0 +1,131 @@
+{
+    "DB_URL": "sqlite:///db.sqlite",
+    "COMMAND_PREFIX": "*",
+    "BOT_TOKEN": "Your discord bot token goes here",
+    "UNB_BOT_TOKEN": "Your UNB API token goes here",
+    "WORKING_GUILDS": [],
+    "CURRENCY_SYMBOL": "💵",
+    "START_STATS": {
+        "lvl": 1,
+        "xp": 0,
+        "hp": 100,
+        "attack": 10,
+        "armor": 0.0,
+        "crit_chance": 5.0,
+        "crit_damage": 1.2,
+        "skill_id": null,
+        "pet_id": null,
+        "items": ""
+    },
+    "MAX_LVL": 10,
+    "LVLS": [
+        {
+            "xp_needed": 100,
+            "stats": {
+                "hp": 100,
+                "attack": 10,
+                "armor": 0,
+                "crit_chance": 5.0,
+                "crit_damage": 1.2
+            }
+        },
+        {
+            "xp_needed": 150,
+            "stats": {
+                "hp": 100,
+                "attack": 12,
+                "armor": 0,
+                "crit_chance": 5.0,
+                "crit_damage": 1.2
+            }
+        },
+        {
+            "xp_needed": 250,
+            "stats": {
+                "hp": 100,
+                "attack": 14,
+                "armor": 0,
+                "crit_chance": 5.0,
+                "crit_damage": 1.2
+            }
+        },
+        {
+            "xp_needed": 300,
+            "stats": {
+                "hp": 100,
+                "attack": 16,
+                "armor": 0,
+                "crit_chance": 5.0,
+                "crit_damage": 1.2
+            }
+        },
+        {
+            "xp_needed": 400,
+            "stats": {
+                "hp": 100,
+                "attack": 18,
+                "armor": 0,
+                "crit_chance": 5.0,
+                "crit_damage": 1.2
+            },
+            "reward_role_id": null
+        },
+        {
+            "xp_needed": 450,
+            "stats": {
+                "hp": 100,
+                "attack": 20,
+                "armor": 0,
+                "crit_chance": 5.0,
+                "crit_damage": 1.2
+            }
+        },
+        {
+            "xp_needed": 550,
+            "stats": {
+                "hp": 100,
+                "attack": 22,
+                "armor": 0,
+                "crit_chance": 6.0,
+                "crit_damage": 1.2
+            }
+        },
+        {
+            "xp_needed": 600,
+            "stats": {
+                "hp": 100,
+                "attack": 24,
+                "armor": 0,
+                "crit_chance": 7.0,
+                "crit_damage": 1.2
+            }
+        },
+        {
+            "xp_needed": 700,
+            "stats": {
+                "hp": 100,
+                "attack": 26,
+                "armor": 0,
+                "crit_chance": 8.0,
+                "crit_damage": 1.2
+            }
+        },
+        {
+            "xp_needed": 750,
+            "stats": {
+                "hp": 100,
+                "attack": 30,
+                "armor": 0,
+                "crit_chance": 10.0,
+                "crit_damage": 1.2
+            },
+            "reward_role_id": null
+        }
+    ], 
+    "PVP_XP_REWARD": 25,
+    "TURN_DELAY": 3,
+    "MOVE_DELAY": 2,
+    "ITEMS_PATH": "configs/items.json",
+    "TEXTS_PATH": "configs/texts.json",
+    "BOSSES_PATH": "configs/bosses.json"
+}
